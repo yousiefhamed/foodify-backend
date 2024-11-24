@@ -1,0 +1,35 @@
+{
+  "name": "foodify",
+  "version": "1.0.0",
+  "description": "Foodify is a food delivery service that delivers food to your doorstep.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousiefhamed/foodify.git"
+  },
+  "keywords": [
+    "foodify",
+    "backend",
+    "express",
+    "mern",
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Youssef Hamed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yousiefhamed/foodify/issues"
+  },
+  "homepage": "https://github.com/yousiefhamed/foodify#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  }
+}
