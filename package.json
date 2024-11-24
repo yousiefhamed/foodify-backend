@@ -2,7 +2,7 @@
   "name": "foodify",
   "version": "1.0.0",
   "description": "Foodify is a food delivery service that delivers food to your doorstep.",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js"
