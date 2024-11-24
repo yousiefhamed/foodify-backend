@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 // Connect to MongoDB
-import connectDB from "./config/db.js";
+import connectDB from "../config/db.js";
 
 dotenv.config();
 
